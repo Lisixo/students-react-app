@@ -3,8 +3,8 @@
   --primary: rgb(11, 11, 12);
   --secondary: rgb(34, 34, 39);
 
-  --scrolbar-primary: rgb(21, 146, 27);
-  --scrollbar-secondary: rgb(27, 187, 35);
+  --color-primary: rgb(21, 146, 27);
+  --color-secondary: rgb(27, 187, 35);
   --scrollbar-bg: rgba(0, 0, 0, 0.6);
 }
 
@@ -34,14 +34,14 @@ body,
 
 /* Scrollbar: handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--scrolbar-primary);
+  background: var(--color-primary);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--scrollbar-secondary);
+  background: var(--color-secondary);
 }
 
 /* Scrollbar: for Firefox */
 * {
   scrollbar-width: 16px;
-  scrollbar-color: var(--scrolbar-primary) var(--scrollbar-bg);
+  scrollbar-color: var(--color-primary) var(--scrollbar-bg);
 }
