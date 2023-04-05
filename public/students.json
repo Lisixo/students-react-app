@@ -1,0 +1,95 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Andrzej",
+      "surname": "Kowalski",
+      "class": "3 IN",
+      "mail": "akowalski@school.eu"
+    },
+    {
+      "id": 2,
+      "name": "Ewa",
+      "surname": "Gremblewska",
+      "class": "4 IN",
+      "mail": "egremblewska@school.eu"
+    },
+    {
+      "id": 3,
+      "name": "Marek",
+      "surname": "Fechner",
+      "class": "2 PR",
+      "mail": "mfechner@school.eu"
+    },
+    {
+      "id": 4,
+      "name": "Ryszard",
+      "surname": "Moś",
+      "class": "3 PR",
+      "mail": "rmos@school.eu"
+    },
+    {
+      "id": 5,
+      "name": "Zbigniew",
+      "surname": "Zarychta",
+      "class": "1 IN",
+      "mail": "zzarychta@school.eu"
+    },
+    {
+      "id": 6,
+      "name": "Józef",
+      "surname": "Juroff",
+      "class": "4 PR",
+      "mail": "jjuroff@school.eu"
+    },
+    {
+      "id": 7,
+      "name": "Leszek",
+      "surname": "Strączyński",
+      "class": "1 IN",
+      "mail": "lstraczynski@school.eu"
+    },
+    {
+      "id": 8,
+      "name": "Anna",
+      "surname": "Kubaszewska",
+      "class": "4 PR",
+      "mail": "akubaszewska@school.eu"
+    },
+    {
+      "id": 9,
+      "name": "Miłosz",
+      "surname": "Kiszka",
+      "class": "2 PR",
+      "mail": "mkiszka@school.eu"
+    },
+    {
+      "id": 10,
+      "name": "Paulina",
+      "surname": "Malec",
+      "class": "3 PR",
+      "mail": "pmalec@school.eu"
+    },
+    {
+      "id": 11,
+      "name": "Karolina",
+      "surname": "Marczewska",
+      "class": "2 PR",
+      "mail": "kmarczewska@school.eu"
+    },
+    {
+      "id": 12,
+      "name": "Krzysztof",
+      "surname": "Machura",
+      "class": "4 IN",
+      "mail": "kmachura@school.eu"
+    },
+    {
+      "id": 13,
+      "name": "Paweł",
+      "surname": "Urbański",
+      "class": "2 PR",
+      "mail": "purbanski@school.eu"
+    }
+  ]
+}
