@@ -5,7 +5,7 @@
 
   --color-primary: rgb(21, 146, 27);
   --color-secondary: rgb(27, 187, 35);
-  --scrollbar-bg: rgba(0, 0, 0, 0.6);
+  --scrollbar-bg: rgba(36, 36, 36, 0.6);
 }
 
 html,
@@ -29,11 +29,12 @@ body,
 
 /* Scrollbar: track */
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.6);
+  background: var(--scrollbar-bg);
 }
 
 /* Scrollbar: handle */
 ::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
   background: var(--color-primary);
 }
 ::-webkit-scrollbar-thumb:hover {

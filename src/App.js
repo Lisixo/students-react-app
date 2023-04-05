@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { Navigation } from './components/navigation';
+import { StudentList } from './components/list';
 
 function App() {
   const [dataState, setDataState] = useState('requesting')
@@ -13,9 +14,9 @@ function App() {
         // Wyłapywanie błędów
         try{
           const res = await fetch('/students.json')
-          const data = await res.json()
+          const _data = await res.json()
 
-          setData(data)
+          setData(_data)
           setDataState('ok')
         } catch(e) {
           console.error(e)
@@ -26,6 +27,11 @@ function App() {
   })
   return <>
     <Navigation dataStatus={dataState} />
+    {
+      (dataState === 'ok' && data && data.students) && (
+        <StudentList data={data} />
+      )
+    }
   </>
 }
 

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin: 32px 0px;
+}
+
+.element {
+  display: grid;
+  grid-template-areas: "id name class mail";
+  grid-template-columns:  1fr 3fr 1fr 3fr;
+  padding: 8px;
+  background: var(--secondary);
+  color: #fff;
+  width: calc(100% - 32px);
+}
+
+.id {
+  grid-area: id;
+}
+
+.name {
+  grid-area: name;
+}
+
+.class {
+  grid-area: class;
+}
+
+.mail {
+  grid-area: mail;
+}
