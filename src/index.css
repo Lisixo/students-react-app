@@ -1,13 +1,46 @@
-body {
+/* Variables */
+::root {
+  --primary: rgb(11, 11, 12);
+  --secondary: rgb(34, 34, 39);
+
+  --scrolbar-primary: rgb(21, 146, 27);
+  --scrollbar-secondary: rgb(27, 187, 35);
+  --scrollbar-bg: rgba(0, 0, 0, 0.6);
+}
+
+html,
+body,
+#root {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Scrollbar: for Chromium Based browsers */
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Scrollbar: track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Scrollbar: handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scrolbar-primary);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-secondary);
+}
+
+/* Scrollbar: for Firefox */
+* {
+  scrollbar-width: 16px;
+  scrollbar-color: var(--scrolbar-primary) var(--scrollbar-bg);
 }
