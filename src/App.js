@@ -24,7 +24,8 @@ function App() {
         }
       }
     )()
-  })
+  }, [])
+  
   return <>
     <Navigation dataStatus={dataState} />
     {
